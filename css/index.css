@@ -1,0 +1,99 @@
+#service,#features,#portfolio,#pricing,#blog,#testimonials,#fun-facts,#client{
+    display: none;
+}
+
+
+
+#service > div > div.row .read-more{ 
+    text-align: end;
+}
+
+
+
+#blog .col-md-8{
+    display: flex;
+    align-items: baseline;
+   
+}
+#blog .col-md-8 button{
+    background: transparent;
+    border: none;
+}
+
+#blog .col-md-8 button {
+	/* height: 50px; */
+	/* width: 50px; */
+	color: #e73131;
+	border: 2px solid #e73131;
+	padding: 1rem 1.4rem;
+	font-size: 1.5rem;
+	position: relative;
+	top: 5px;
+}
+#blog .col-md-8 button:hover {
+	background:#e73131;
+	color:#fff;
+	transition:all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.new-blog{
+    display: none;
+}
+.ck-editor__editable {
+    min-height: 50vh;
+  }
+
+  /* .new-blog button{
+
+  } */
+  .new-blog  button {
+	/* height: 50px; */
+	/* width: 50px; */
+    border: none;
+    background: transparent;
+	color: #e73131;
+	border: 2px solid #e73131;
+	padding: 1rem 1.4rem;
+	font-size: 1.5rem;
+	position: relative;
+	top: 5px;
+}
+.new-blog button:hover {
+	background:#e73131;
+	color:#fff;
+	transition:all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.features-sec .book{
+   border: 1px solid #eee;
+   margin-bottom: 1rem;
+}
+
+.features-sec .book #more{
+    display: none;
+    color: #666;
+}
+
+
+#pricing > div > div.row > div	{
+	border: 1px solid #eee;
+    border-radius: 5px 5px 4px 4px;
+	margin-bottom: 2rem;
+}
+
+#pricing > div > div.row > div .acheivement h4	{
+	background: #f8f8f8;
+	padding: 2rem 3rem;
+	color :#444;
+	font-weight: bold;
+}
+#pricing > div > div.row > div .acheivement .acheive-desc	{
+	/* background: #f8f8f8; */
+	text-align: left;
+}

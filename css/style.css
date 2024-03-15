@@ -449,6 +449,7 @@ ul.nav li.active a:before {
 }
 .media.service-box {
 	margin: 25px 0;
+	/* height: 125px; */
 }
 .media.service-box .pull-left {
 	margin-right: 20px;
@@ -1356,3 +1357,25 @@ color:#fff;
 }
 
 /*Basic-Stylesheets-End-Here*/
+
+
+.primary-button {
+	background: transparent;
+
+	/* height: 30px; */
+	color: #e73131;
+	border: 2px solid #e73131;
+	font-size: 15px;
+    padding: 4px 8px;
+	border-radius: 5px;
+	/* position: relative; */
+	/* top: 5px; */
+}
+.primary-button:hover {
+	background:#e73131;
+	color:#fff;
+	transition:all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
