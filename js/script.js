@@ -195,7 +195,7 @@ $(document).ready(function() {
 		var $portfolio = $('.portfolio-items');
 		$portfolio.isotope({
 			itemSelector : '.portfolio-item',
-			layoutMode : 'fitRows'
+			layoutMode : 'fitRows',
 		});
 		
 		$portfolio_selectors.on('click', function(){

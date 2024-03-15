@@ -97,3 +97,16 @@
 	/* background: #f8f8f8; */
 	text-align: left;
 }
+
+#portfolio .music-content{
+    height: 182px;
+
+}
+#portfolio .audio-only{
+
+	background-color: #d1cdcd;
+}
+
+#portfolio > div > div.portfolio-items.isotope{
+	overflow:visible !important ;
+}
