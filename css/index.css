@@ -1,3 +1,11 @@
+#menu > div{
+	position: fixed;
+	/* height: 55px; */
+}
+
+.tabcontent > div > div.col-md-12{
+ margin-top: 65px;
+}
 #service,#features,#portfolio,#pricing,#blog,#testimonials,#fun-facts,#client{
     display: none;
 }
@@ -10,17 +18,17 @@
 
 
 
-#blog .col-md-8{
+#blog .blog-header{
     display: flex;
     align-items: baseline;
    
 }
-#blog .col-md-8 button{
+#blog .blog-header button{
     background: transparent;
     border: none;
 }
 
-#blog .col-md-8 button {
+#blog .blog-header button {
 	/* height: 50px; */
 	/* width: 50px; */
 	color: #e73131;
@@ -30,7 +38,7 @@
 	position: relative;
 	top: 5px;
 }
-#blog .col-md-8 button:hover {
+#blog .blog-header button:hover {
 	background:#e73131;
 	color:#fff;
 	transition:all 0.5s;

@@ -217,7 +217,8 @@ a.btn-down {
     top: 65px;
 	}
 #menu .nav {
- left:0%;
+ /* left:0%; */
+ text-align: center;
  float:left;
 }
 .navbar-default .navbar-toggle {

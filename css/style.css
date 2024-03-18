@@ -709,7 +709,7 @@ ul.nav li.active a:before {
 }
 /*Pricing-stylesheets-include-here*/
 #pricing {
-	padding: 4% 0% 0% 2%;
+	padding: 2% 0% 0% 2%;
 	text-align:center
 }
 #pricing ul.pricing {
@@ -902,7 +902,7 @@ background:#e73131;
 /*Blog-stylesheets-include-here*/
 #blog {
 	text-align:center;
-	padding:3% 0% 0% 2%;
+	padding:2% 0% 0% 2%;
 }
 .blog-info {
 	text-align:left;
